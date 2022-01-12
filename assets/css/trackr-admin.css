@@ -1,0 +1,168 @@
+/* Options Page: Support Box */
+.trackr-support-block .postbox-header {
+    border-bottom-color: #dcdcde;
+}
+
+.trackr-support-block .hndle {
+    cursor: auto !important;
+}
+
+.trackr-support-block p {
+    padding: 10px;
+    clear: both;
+    background: #F5F5F5;
+}
+
+.trackr-support-block ul {
+    padding: 0;
+    list-style: none;
+    margin: 20px 0 0;
+}
+
+.trackr-support-block ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.trackr-support-block ul li span {
+    margin-right: 5px;
+}
+
+.trackr-support-block ul li a {
+    text-decoration: none;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #c3c4c7;
+}
+
+.trackr-support-block ul li:last-child a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* CF: Options Page */
+.woocommerce_page_trackr-settings .carbon-theme-options {
+    max-width: 1140px;
+}
+
+.woocommerce_page_trackr-settings .carbon-theme-options > h2 {
+    display: none;
+}
+
+.woocommerce_page_trackr-settings .plugin-options-top {
+    display: flex;
+    align-items: center;
+    margin: 0 0 15px;
+}
+
+.woocommerce_page_trackr-settings #postbox-container-1 {
+    margin-top: 78px;
+}
+
+.woocommerce_page_trackr-settings .plugin-options-top .plugin-options-top-image img {
+    border-radius: 3px;
+    max-width: 60px;
+    margin-right: 15px;
+}
+
+.woocommerce_page_trackr-settings .plugin-options-top .plugin-options-top-title h3 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 26px;
+}
+
+.woocommerce_page_trackr-settings .plugin-options-top .plugin-options-top-title span {
+    font-size: 14px;
+    display: block;
+}
+
+/* CF: Fields Structure */
+.woocommerce_page_trackr-settings .cf-container .cf-field {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    border-color: #c3c4c7;
+}
+
+.woocommerce_page_trackr-settings .cf-container .cf-field[hidden] {
+    opacity: 0.7;
+}
+
+.woocommerce_page_trackr-settings .cf-container .cf-field__head {
+    padding: 12px;
+    min-width: 200px;
+    flex: 1 1 200px;
+    border-right: 1px solid #c3c4c7;
+}
+
+.woocommerce_page_trackr-settings .cf-container .cf-field__body {
+    padding: 12px;
+    max-width: calc(100% - 200px);
+}
+
+.woocommerce_page_trackr-settings .cf-container .cf-field__label {
+    padding: 0;
+    font-weight: 600;
+}
+
+.woocommerce_page_trackr-settings .cf-container .cf-field__help {
+    margin: 0 0 0 199px;
+    padding: 5px 12px;
+    width: calc(100% - 200px);
+    font-size: 13px;
+    font-style: normal;
+    background: #F5F5F5;
+    border-left: 1px solid #c3c4c7;
+}
+
+/* CF: Field Set */
+.woocommerce_page_trackr-settings .cf-field .cf-set__list {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 -8px;
+}
+
+.woocommerce_page_trackr-settings .cf-field .cf-set__list .cf-set__list-item {
+    margin: 0;
+    flex-basis: 33%;
+    padding: 0 0 8px;
+}
+
+.woocommerce_page_trackr-settings .cf-field .cf-set__input:before {
+    color: #fca311;
+}
+
+/* CF: Field Color */
+.woocommerce_page_trackr-settings .cf-color .cf-color__toggle {
+    border: 0;
+    width: 55px;
+    box-shadow: none;
+    border-radius: 3px 0 0 3px;
+}
+
+.woocommerce_page_trackr-settings .cf-color .cf-color__toggle:active {
+    transform: none;
+}
+
+.woocommerce_page_trackr-settings .cf-color .cf-color__toggle .cf-color__preview {
+    border: 0;
+    width: 55px;
+}
+
+.woocommerce_page_trackr-settings .cf-color .cf-color__toggle .cf-color__toggle-text {
+    display: none;
+}
+
+.woocommerce_page_trackr-settings .cf-color .cf-color__reset {
+    margin: 0;
+    width: 25px;
+    height: 28px;
+    text-align: center;
+    color: #444444;
+    background: #E5E5E5;
+    border-radius: 0 3px 3px 0;
+}
